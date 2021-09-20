@@ -9,7 +9,6 @@ namespace Patron.Observer
 {
     public class Sesion : IObservado
     {
-        //
         public Idioma idioma { get; set; }
         public IList<IObservador> ObservadoresRegistrados { get; set; }
         private static Sesion sesion;

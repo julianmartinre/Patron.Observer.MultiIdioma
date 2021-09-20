@@ -10,6 +10,5 @@ namespace Patron.Observer
     public class Palabra : Entity, IPalabra
     {
         public string Texto { get; set; }
-        //
     }
 }
